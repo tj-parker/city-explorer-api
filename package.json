@@ -1,16 +1,18 @@
 {
   "name": "city-explorer-api",
   "version": "1.0.0",
-  "description": "city explorer api",
-  "main": "index.js",
+  "description": "**Author**: TJ Parker **Version**: 1.0.0 (increment the patch/fix version number if you make more commits past your first submission)",
+  "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/tj-parker/city-explorer-api.git"
   },
-  "author": "TJ Parker",
+  "keywords": [],
+  "author": "",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/tj-parker/city-explorer-api/issues"
@@ -20,9 +22,5 @@
     "cors": "^2.8.5",
     "dotenv": "^16.0.1",
     "express": "^4.18.1"
-  },
-  "devDependencies": {
-    "eslint": "^8.20.0",
-    "eslint-plugin-react": "^7.30.1"
   }
 }
